@@ -45,7 +45,7 @@ def fcfs_schedule(proc_list):
 
 
 def print_fcfs_output(results):
-    """Prints the FCFS output table and averages in a clean format."""
+
     # Compute averages
     n = len(results)
     avg_wait = sum(r["waiting"] for r in results) / n if n else 0.0
