@@ -15,11 +15,6 @@ processes = [
 
 
 def fcfs_schedule(proc_list):
-    """Compute FCFS scheduling results.
-
-    Returns a list of dicts with keys:
-    - pid, arrival, burst, waiting, turnaround
-    """
     # Sort by arrival time (FCFS order)
     procs = sorted(proc_list, key=lambda p: p["arrival"]) 
 
