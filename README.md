@@ -1,8 +1,5 @@
 # Operating Systems Lab — CPU Scheduling, Page Replacement and Disk Scheduling(Python)
 
-Simulators for common OS algorithms implemented in Python for the Labwork of Operating Systems coursework
-
-
 ## Task 1 — CPU Scheduling
 - FCFS (First Come First Serve): `Task1/fcfs.py`
 - SJF (Shortest Job First, Non-Preemptive): `Task1/sjf.py`
