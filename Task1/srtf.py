@@ -69,7 +69,7 @@ def srtf_schedule(proc_list):
 
 
 def print_srtf_output(results):
-    """Prints the SRTF output table and averages in a clean format."""
+
     n = len(results)
     avg_wait = sum(r["waiting"] for r in results) / n if n else 0.0
     avg_tat = sum(r["turnaround"] for r in results) / n if n else 0.0
