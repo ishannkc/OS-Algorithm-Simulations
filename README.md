@@ -1,13 +1,19 @@
-# CPU Scheduling Simulator (Python)
+# Operating Systems Lab — CPU Scheduling and Page Replacement (Python)
 
-A beginner-friendly CPU Scheduling Simulator implemented in Python for the Labwork of Operating Systems coursework
+Beginner-friendly, standalone simulators for common OS algorithms for the labwork of Operating Systems coursework.
 
-## Implemented Algorithms
+
+## Task 1 — CPU Scheduling
 - FCFS (First Come First Serve): `Task1/fcfs.py`
 - SJF (Shortest Job First, Non-Preemptive): `Task1/sjf.py`
 - SRTF (Shortest Remaining Time First, Preemptive SJF): `Task1/srtf.py`
 - Priority (Non-Preemptive, lower number = higher priority): `Task1/priority.py`
 - Round Robin (with Time Quantum set inside file): `Task1/round_robin.py`
+
+## Task 3 — Page Replacement
+- FIFO (First-In First-Out): `Task3/fifo.py`
+- OPT (Optimal): `Task3/opt.py`
+- LRU (Least Recently Used): `Task3/lru.py`
 
 ## How to Run
 Each algorithm is a separate file with its own sample input at the top. From the repository root, run:
@@ -18,6 +24,9 @@ python Task1/sjf.py
 python Task1/srtf.py
 python Task1/priority.py
 python Task1/round_robin.py
+python Task3/fifo.py
+python Task3/opt.py
+python Task3/lru.py
 ```
 
 Or from inside the Task1 folder:
@@ -28,6 +37,14 @@ python sjf.py
 python srtf.py
 python priority.py
 python round_robin.py
+```
+
+From inside Task3:
+
+```bash
+python fifo.py
+python opt.py
+python lru.py
 ```
 
 ## Output Format
