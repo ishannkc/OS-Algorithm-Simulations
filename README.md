@@ -68,16 +68,3 @@ python cscan.py
 python look.py
 python clook.py
 ```
-
-## Output Format
-Each algorithm prints:
-- A clearly labeled algorithm header
-- A table with Process ID, Arrival Time (AT), Burst Time (BT), Waiting Time (WT), Turnaround Time (TAT)
-- Average Waiting Time and Average Turnaround Time
-
-Priority value and Time Quantum are included only when applicable.
-
-## Notes for Submission
-- Each `.py` file contains its own sample input and prints only that algorithm’s output.
-- Output tables are compact and fit in 1–2 screenshots.
-- Code is clean and readable for academic review and GitHub hosting.
