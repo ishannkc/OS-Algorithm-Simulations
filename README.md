@@ -1,6 +1,6 @@
 # Operating Systems Lab — CPU Scheduling and Page Replacement (Python)
 
-Beginner-friendly, standalone simulators for common OS algorithms for the labwork of Operating Systems coursework.
+Simulators for common OS algorithms implemented in Python for the Labwork of Operating Systems coursework
 
 
 ## Task 1 — CPU Scheduling
