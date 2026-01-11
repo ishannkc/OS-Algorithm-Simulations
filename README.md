@@ -1,4 +1,4 @@
-# Operating Systems Lab — CPU Scheduling and Page Replacement (Python)
+# Operating Systems Lab — CPU Scheduling, Page Replacement and Disk Scheduling(Python)
 
 Simulators for common OS algorithms implemented in Python for the Labwork of Operating Systems coursework
 
@@ -15,6 +15,14 @@ Simulators for common OS algorithms implemented in Python for the Labwork of Ope
 - OPT (Optimal): `Task3/opt.py`
 - LRU (Least Recently Used): `Task3/lru.py`
 
+## Task 4 — Disk Scheduling
+- FCFS (First Come First Serve): `Task4/fcfs_disk.py`
+- SSTF (Shortest Seek Time First): `Task4/sstf.py`
+- SCAN (Elevator): `Task4/scan.py`
+- C-SCAN (Circular SCAN): `Task4/cscan.py`
+- LOOK: `Task4/look.py`
+- C-LOOK (Circular LOOK): `Task4/clook.py`
+
 ## How to Run
 Each algorithm is a separate file with its own sample input at the top. From the repository root, run:
 
@@ -27,6 +35,12 @@ python Task1/round_robin.py
 python Task3/fifo.py
 python Task3/opt.py
 python Task3/lru.py
+python Task4/fcfs_disk.py
+python Task4/sstf.py
+python Task4/scan.py
+python Task4/cscan.py
+python Task4/look.py
+python Task4/clook.py
 ```
 
 Or from inside the Task1 folder:
@@ -45,6 +59,17 @@ From inside Task3:
 python fifo.py
 python opt.py
 python lru.py
+```
+
+From inside Task4:
+
+```bash
+python fcfs_disk.py
+python sstf.py
+python scan.py
+python cscan.py
+python look.py
+python clook.py
 ```
 
 ## Output Format
