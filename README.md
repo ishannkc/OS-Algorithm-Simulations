@@ -1,6 +1,6 @@
 # CPU Scheduling Simulator (Python)
 
-A beginner-friendly, screenshot-ready CPU Scheduling Simulator implemented in Python. Each algorithm lives in its own standalone file, includes its own clearly labeled sample input, and prints only its own output.
+A beginner-friendly CPU Scheduling Simulator implemented in Python for the Labwork of Operating Systems coursework
 
 ## Implemented Algorithms
 - FCFS (First Come First Serve): `Task1/fcfs.py`
