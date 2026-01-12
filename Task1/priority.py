@@ -62,7 +62,7 @@ def print_priority_output(results):
     avg_wait = sum(r["waiting"] for r in results) / n if n else 0.0
     avg_tat = sum(r["turnaround"] for r in results) / n if n else 0.0
 
-    print("Algorithm: Priority (Non-Preemptive)")
+    print("Algorithm: Priority")
     print("-" * 58)
     print("Process | AT | BT | PR | WT | TAT")
     print("-" * 58)
